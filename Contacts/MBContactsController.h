@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class Contact;
+
 @interface MBContactsController : NSObject
 
-@property (nonatomic, ) NSArray *contacts;
+@property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;
 
 @end

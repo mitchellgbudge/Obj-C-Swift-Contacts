@@ -7,7 +7,20 @@
 //
 
 #import "MBContactsController.h"
+#import "Contacts-Swift.h"
 
 @implementation MBContactsController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _contacts = @[
+                      [[Contact alloc] initWithName:@"Mitch" relationship:@"Myself"],
+                      [[Contact alloc] initWithName:@"Patti" relationship:@"Mother"]
+                      ];
+    }
+    return self;
+}
 
 @end

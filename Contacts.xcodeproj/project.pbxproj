@@ -67,8 +67,8 @@
 				3DA6A9D022E619780010861B /* ContactsTableViewController.swift */,
 				3DA6A9B822E617250010861B /* AppDelegate.swift */,
 				3DA6A9BC22E617250010861B /* Main.storyboard */,
-				3DA6A9BF22E617290010861B /* Assets.xcassets */,
 				3DA6A9C122E617290010861B /* LaunchScreen.storyboard */,
+				3DA6A9BF22E617290010861B /* Assets.xcassets */,
 				3DA6A9C422E617290010861B /* Info.plist */,
 			);
 			path = Contacts;
