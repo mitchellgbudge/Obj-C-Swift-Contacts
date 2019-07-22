@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Contacts-Swift.h"
 
 @class Contact;
 
 @interface MBContactsController : NSObject
 
-@property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;
+@property (nonatomic, readonly, nonnull) NSArray<MBContact *> *contacts;
 
 @end
