@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3DA6A9B922E617250010861B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9B822E617250010861B /* AppDelegate.swift */; };
-		3DA6A9BB22E617250010861B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9BA22E617250010861B /* ViewController.swift */; };
 		3DA6A9BE22E617250010861B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9BC22E617250010861B /* Main.storyboard */; };
 		3DA6A9C022E617290010861B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9BF22E617290010861B /* Assets.xcassets */; };
 		3DA6A9C322E617290010861B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9C122E617290010861B /* LaunchScreen.storyboard */; };
 		3DA6A9CB22E6183F0010861B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9CA22E6183F0010861B /* Contact.swift */; };
 		3DA6A9CF22E6188D0010861B /* MBContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9CE22E6188D0010861B /* MBContactsController.m */; };
+		3DA6A9D122E619780010861B /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9D022E619780010861B /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DA6A9B522E617250010861B /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA6A9B822E617250010861B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DA6A9BA22E617250010861B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DA6A9BD22E617250010861B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DA6A9BF22E617290010861B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA6A9C222E617290010861B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		3DA6A9CC22E6188D0010861B /* Contacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Bridging-Header.h"; sourceTree = "<group>"; };
 		3DA6A9CD22E6188D0010861B /* MBContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBContactsController.h; sourceTree = "<group>"; };
 		3DA6A9CE22E6188D0010861B /* MBContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBContactsController.m; sourceTree = "<group>"; };
+		3DA6A9D022E619780010861B /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 				3DA6A9CA22E6183F0010861B /* Contact.swift */,
 				3DA6A9CD22E6188D0010861B /* MBContactsController.h */,
 				3DA6A9CE22E6188D0010861B /* MBContactsController.m */,
+				3DA6A9D022E619780010861B /* ContactsTableViewController.swift */,
 				3DA6A9B822E617250010861B /* AppDelegate.swift */,
-				3DA6A9BA22E617250010861B /* ViewController.swift */,
 				3DA6A9BC22E617250010861B /* Main.storyboard */,
 				3DA6A9BF22E617290010861B /* Assets.xcassets */,
 				3DA6A9C122E617290010861B /* LaunchScreen.storyboard */,
@@ -147,8 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA6A9CB22E6183F0010861B /* Contact.swift in Sources */,
-				3DA6A9BB22E617250010861B /* ViewController.swift in Sources */,
 				3DA6A9B922E617250010861B /* AppDelegate.swift in Sources */,
+				3DA6A9D122E619780010861B /* ContactsTableViewController.swift in Sources */,
 				3DA6A9CF22E6188D0010861B /* MBContactsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
