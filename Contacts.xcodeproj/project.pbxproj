@@ -12,6 +12,8 @@
 		3DA6A9BE22E617250010861B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9BC22E617250010861B /* Main.storyboard */; };
 		3DA6A9C022E617290010861B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9BF22E617290010861B /* Assets.xcassets */; };
 		3DA6A9C322E617290010861B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6A9C122E617290010861B /* LaunchScreen.storyboard */; };
+		3DA6A9CB22E6183F0010861B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9CA22E6183F0010861B /* Contact.swift */; };
+		3DA6A9CF22E6188D0010861B /* MBContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6A9CE22E6188D0010861B /* MBContactsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		3DA6A9BF22E617290010861B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA6A9C222E617290010861B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA6A9C422E617290010861B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA6A9CA22E6183F0010861B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3DA6A9CC22E6188D0010861B /* Contacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Contacts-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DA6A9CD22E6188D0010861B /* MBContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBContactsController.h; sourceTree = "<group>"; };
+		3DA6A9CE22E6188D0010861B /* MBContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBContactsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 			children = (
 				3DA6A9B722E617250010861B /* Contacts */,
 				3DA6A9B622E617250010861B /* Products */,
+				3DA6A9CC22E6188D0010861B /* Contacts-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +61,9 @@
 		3DA6A9B722E617250010861B /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				3DA6A9CA22E6183F0010861B /* Contact.swift */,
+				3DA6A9CD22E6188D0010861B /* MBContactsController.h */,
+				3DA6A9CE22E6188D0010861B /* MBContactsController.m */,
 				3DA6A9B822E617250010861B /* AppDelegate.swift */,
 				3DA6A9BA22E617250010861B /* ViewController.swift */,
 				3DA6A9BC22E617250010861B /* Main.storyboard */,
@@ -96,6 +106,7 @@
 				TargetAttributes = {
 					3DA6A9B422E617250010861B = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -135,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA6A9CB22E6183F0010861B /* Contact.swift in Sources */,
 				3DA6A9BB22E617250010861B /* ViewController.swift in Sources */,
 				3DA6A9B922E617250010861B /* AppDelegate.swift in Sources */,
+				3DA6A9CF22E6188D0010861B /* MBContactsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3F959XXFV;
 				INFOPLIST_FILE = Contacts/Info.plist;
@@ -291,6 +305,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitchellbudge.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3F959XXFV;
 				INFOPLIST_FILE = Contacts/Info.plist;
@@ -309,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitchellbudge.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Contacts-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
